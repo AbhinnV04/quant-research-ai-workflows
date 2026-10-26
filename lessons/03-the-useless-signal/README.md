@@ -1,4 +1,4 @@
-# Lesson 4: The useless signal
+# Lesson 3: The useless signal
 
 You have a daily signal, `x`, and an outcome, `y`. Every evening you know today's `x`, and you'd like to use it to predict tomorrow's `y`.
 
@@ -22,7 +22,7 @@ Are they right?
 
 ## How to work
 - **AI chat:** open [`prompt.md`](prompt.md), copy all of it into your AI chat, and answer its first question.
-- **Colab:** [open the starter notebook](https://colab.research.google.com/github/AbhinnV04/quant-research-ai-workflows/blob/main/lessons/04-the-useless-signal/starter.ipynb). It loads `history.csv` for you.
-- **AI coding agent** (Claude Code, Cursor, Copilot) in a clone of this repo: say "start lesson 4".
+- **Colab:** [open the starter notebook](https://colab.research.google.com/github/AbhinnV04/quant-research-ai-workflows/blob/main/lessons/03-the-useless-signal/starter.ipynb). It loads `history.csv` for you.
+- **AI coding agent** (Claude Code, Cursor, Copilot) in a clone of this repo: say "start lesson 3".
 
 You make the calls. The AI does the computing.

@@ -1,4 +1,4 @@
-# Lesson 3: Two hundred signals
+# Lesson 4: Two hundred signals
 
 A colleague has built 200 candidate signals. Each one is a number they can compute at the end of every trading day. They want to know which of them predict tomorrow's outcome, `y`, a daily number that behaves like a return.
 
@@ -18,5 +18,5 @@ Decide which signals, if any, predict `y`.
 
 ## How to work
 - Open [`prompt.md`](prompt.md), copy all of it into your AI chat, and answer its first question.
-- Or open the notebook in Colab: [starter.ipynb](https://colab.research.google.com/github/AbhinnV04/quant-research-ai-workflows/blob/main/lessons/03-two-hundred-signals/starter.ipynb).
+- Or open the notebook in Colab: [starter.ipynb](https://colab.research.google.com/github/AbhinnV04/quant-research-ai-workflows/blob/main/lessons/04-two-hundred-signals/starter.ipynb).
 - You make the calls. The AI does the computing.

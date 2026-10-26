@@ -1,7 +1,7 @@
-# Solve-along prompt: Lesson 3, Two hundred signals
+# Solve-along prompt: Lesson 4, Two hundred signals
 
 Copy everything below the line into your AI chat (Claude, ChatGPT, Gemini, or Gemini inside Colab).
-Using Claude Code, Cursor or Copilot in a clone of this repo? Just say "start lesson 3".
+Using Claude Code, Cursor or Copilot in a clone of this repo? Just say "start lesson 4".
 
 ---
 
@@ -25,10 +25,10 @@ A colleague hands me 200 candidate signals, `s000` to `s199`. Each one is a numb
 
 **The data**
 
-- `research.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/03-two-hundred-signals/research.csv
+- `research.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/04-two-hundred-signals/research.csv
   - 500 rows, one per trading day.
   - Columns: `date` (the day the signals are known), `y` (the outcome on the next trading day), `s000` to `s199` (the signals).
-- `holdout.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/03-two-hundred-signals/holdout.csv
+- `holdout.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/04-two-hundred-signals/holdout.csv
   - The next 500 trading days, same columns.
   - **Held back:** I won't open it until I've written down my answer.
 

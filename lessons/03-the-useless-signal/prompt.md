@@ -1,7 +1,7 @@
-# Solve-along prompt: Lesson 4, The useless signal
+# Solve-along prompt: Lesson 3, The useless signal
 
 Copy everything below the line into your AI chat (Claude, ChatGPT, Gemini, or Gemini inside Colab).
-Using Claude Code, Cursor or Copilot in a clone of this repo? Just say "start lesson 4".
+Using Claude Code, Cursor or Copilot in a clone of this repo? Just say "start lesson 3".
 
 ---
 
@@ -25,9 +25,9 @@ I have a daily signal `x` and an outcome `y`. Each row pairs today's `x` (known 
 
 **The data**
 
-- `history.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/04-the-useless-signal/history.csv
+- `history.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/03-the-useless-signal/history.csv
   Columns: `date` (the day `x` was known), `x` (the signal, a unitless score), `y` (the outcome on the next trading day, in %). 750 rows.
-- `future.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/04-the-useless-signal/future.csv
+- `future.csv`: https://raw.githubusercontent.com/AbhinnV04/quant-research-ai-workflows/main/lessons/03-the-useless-signal/future.csv
   The next 250 days, same columns. **Held back:** don't open it until I've written down my answer and ask you to score it.
 
 **What I have to produce**
