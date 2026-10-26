@@ -9,6 +9,21 @@ Saffron Valley Instruments (SVI) is a listed company. You have three years of it
 | `future.csv` | The next 250 trading days, same columns. | Don't open it until you've written your forecasts down. Then use it only to score them. |
 | `news.csv` | `date` and `news_score`: a daily score of the news about SVI (positive is good news, negative is bad), for the same 750 days as `price.csv`. | After you've scored your forecasts. |
 
+## The data, up close
+![The data, up close](data-up-close.png)
+
+One row per trading day (no weekends). The top panel is the whole history; the bottom is the last three months before your forecast starts.
+
+The first rows:
+
+| date | close |
+| --- | --- |
+| 2022-01-03 | 100.0 |
+| 2022-01-04 | 97.68 |
+| 2022-01-05 | 96.33 |
+| 2022-01-06 | 96.29 |
+| 2022-01-07 | 93.67 |
+
 ## Your task
 1. Forecast the closing price 20 trading days after the last date (one month) and 250 trading days after it (one year). Give each one as a number and a range you'd stand behind.
 2. Write both down. Then open `future.csv` and score yourself: how far off were you, and did the truth land inside your range?

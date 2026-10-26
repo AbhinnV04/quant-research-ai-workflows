@@ -13,6 +13,21 @@ The city has three years of both firms' forecasts and what actually happened. Fo
 
 All money is in ₹ crore. The data is made up.
 
+## The data, up close
+![The data, up close](data-up-close.png)
+
+One row per day: each firm's forecast that evening, and whether it flooded the next day. Shown here: two summer months.
+
+The first rows:
+
+| date | forecast_a | forecast_b | flood |
+| --- | --- | --- | --- |
+| 2022-01-01 | 0.246 | 0.296 | 0 |
+| 2022-01-02 | 0.008 | 0.002 | 0 |
+| 2022-01-03 | 0.071 | 0.008 | 0 |
+| 2022-01-04 | 0.019 | 0.0 | 0 |
+| 2022-01-05 | 0.31 | 0.313 | 1 |
+
 ## Your task
 1. Write a closing rule the city could follow.
 2. Choose which firm to pay, and say why in one or two lines.

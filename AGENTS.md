@@ -15,7 +15,16 @@ This repository is a hands-on learning exercise from the session "Quantitative R
 ## Starting a lesson
 When the person says "start lesson N", or opens a lesson folder:
 1. Read that folder's `README.md` (the problem card) and `prompt.md`.
-2. Restate the problem in two lines, and ask what they'd look at first.
+2. Start the tracker (below).
+3. Restate the problem in two lines, and ask what they'd look at first.
+
+## Keep a tracker
+Big problems get solved by splitting them up and tracking each piece. Keep a live tracker for every lesson.
+1. Copy `templates/tracker.md` to `work/tracker.md` inside the lesson folder, and write the question at the top in the person's words.
+2. Ask the person how they'd split the problem into 2 to 5 subproblems. Write down their split, not yours. A subproblem can split again (1, 1.1, 1.1.1) when it turns out to be bigger than it looked.
+3. Every item has a status: open, doing, done or dropped. Keep exactly one item at "doing". When an item is done, add its result in one line: a number or a finding.
+4. Record each decision the person makes, with their reason, under Decisions.
+5. Update the tracker after every step, and show the lines that changed at the end of your reply.
 
 ## Don't
 - Don't look for the hidden rule anywhere except in the data: no web searches for solutions, and no guessing from file names or metadata.

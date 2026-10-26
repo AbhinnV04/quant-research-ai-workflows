@@ -15,6 +15,21 @@ Are they right?
   Each row pairs today's `x` with tomorrow's `y`, so they're already lined up for prediction.
 - `future.csv`: the next 250 days, same columns. **Hold it back:** don't open it until you've written your answer.
 
+## The data, up close
+![The data, up close](data-up-close.png)
+
+One row per trading day: today's `x` next to tomorrow's `y`. These are the first three months only.
+
+The first rows:
+
+| date | x | y |
+| --- | --- | --- |
+| 2021-01-04 | -0.176 | -0.272 |
+| 2021-01-05 | 0.09 | -0.054 |
+| 2021-01-06 | 0.176 | 1.488 |
+| 2021-01-07 | -0.471 | 0.008 |
+| 2021-01-08 | 2.173 | 1.02 |
+
 ## Your task
 1. Decide: is `x` useless for predicting `y`? Yes or no, with the evidence, in one paragraph.
 2. If you decide it's useful: write a rule that predicts tomorrow's `y` using only what's known today. Fit it on `history.csv`.

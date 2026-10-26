@@ -5,6 +5,9 @@ Small toy problems for learning how a quantitative researcher thinks: three we s
 ## The one rule
 **You're the architect; the AI is the computer.** You decide what to look at, what to try and what each result means. The AI writes and runs the code. If the AI does the thinking, you learn nothing, so every prompt here tells it not to.
 
+## Keep a tracker
+Split each problem into a few subproblems, and track each one on its own: open, doing, done, with a one-line result. Your AI keeps the tracker for you (in chat, at the end of each reply; in a clone, in `work/tracker.md`, from [`templates/tracker.md`](templates/tracker.md)). You decide the split.
+
 ## How to follow along
 **Option 1: Colab and any AI chat (nothing to install)**
 1. Open the lesson's notebook in Colab (links below) and run the first cell.

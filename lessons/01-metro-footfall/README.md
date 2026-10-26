@@ -8,6 +8,21 @@ A busy metro interchange opened a few months ago and runs around the clock. The 
   - `footfall`: people who entered in that hour
 - `future.csv`: the next two weeks (336 rows), same columns. **Hold it back:** don't open it until you've saved your forecast. It's only for scoring.
 
+## The data, up close
+![The data, up close](data-up-close.png)
+
+One row per hour. The top panel is the whole training period; the bottom is one ordinary week, hour by hour.
+
+The first rows:
+
+| time | footfall |
+| --- | --- |
+| 2025-01-06 00:00 | 989 |
+| 2025-01-06 01:00 | 869 |
+| 2025-01-06 02:00 | 915 |
+| 2025-01-06 03:00 | 1143 |
+| 2025-01-06 04:00 | 1394 |
+
 ## Your task
 1. Forecast footfall for every hour of the two weeks after the data ends.
 2. Score your forecast against `future.csv`: the typical error over the first day, the first week and the full two weeks.
