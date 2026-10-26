@@ -1,0 +1,7 @@
+# Store text with LF line endings everywhere
+* text=auto eol=lf
+
+# Binary files: never touch line endings or try to diff them
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -1,0 +1,9 @@
+# Python caches, environments and notebook checkpoints
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS clutter
+.DS_Store
+Thumbs.db
